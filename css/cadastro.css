@@ -1,0 +1,191 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --fonte-principal: 'nunito';
+    --cinza-claro-secundario: rgb(205, 205, 205);
+    --fonte-secundaria: 'Red Hat Text';
+    --cor-preta-secundaria: #000000;
+    --cor-verde-claro-secundaria: rgb(157, 228, 91);
+    --cor-verde-cinza-secundario: rgb(153, 182, 183);
+    --cor-verde-escuro: rgb(25, 187, 181);
+    --cor-rosa-forte: rgb(242, 90, 126);
+    --cor-laranja: rgb(254,194,68);
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+h2 {
+    position: absolute;
+    right: 5em;
+    top: -10px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    background-color: rgb(35, 128, 224);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2:hover {
+    background-color: green;
+}
+
+h2 a {
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+label {
+    font-family: var(--fonte-principal);
+    display: block;
+    margin-top: 2em;
+    font-size: 15px;
+}
+
+#pesquisar{
+    padding: 6px;
+    border: 1px solid var(--cinza-claro-secundario);
+    border-radius: 4px;
+    font-size: 13px;
+    width: 15%;
+    margin-top: 1em;
+}
+
+.botao {
+    background-color: rgb(35, 128, 224);
+    padding: 7px;
+    border-radius: 5px;
+    color: var(--branco-principal);
+    border: 1px;
+    margin-left: 10px;
+    width: 5%;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: green;
+}
+
+.texto_principal{
+    font-family: var(--fonte-secundaria);
+    display: inline;
+    text-align: right;
+    margin-left: 47em;
+}
+
+p select{
+    font-family: var(--fonte-secundaria);
+    padding: 5px;
+    width: 5%;
+    margin: 5px;
+}
+
+.formatacao_Tabela{
+    width: 100%;
+    margin-top: 2em;
+    border-collapse: collapse;
+    font-family: var(--fonte-secundaria);
+}
+
+thead{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.setas {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.setas:hover {
+    color: gray;
+}
+
+thead th {
+    font-weight: normal;
+    border-top: 1px solid var(--cinza-claro-secundario);
+    border-bottom: 1px solid var(--cinza-claro-secundario);
+    padding: 1em;
+}
+
+.fundo_tabela {
+    background-color: rgb(248, 252, 255);
+}
+
+tbody td{
+    padding: 15px;
+}
+
+.incial_verde_claro{
+    background-color: var(--cor-verde-claro-secundaria);
+    border-radius: 50%;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.incial_verde_cinza {
+    background-color: var(--cor-verde-cinza-secundario);
+    border-radius: 50%;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial_verde_escuro {
+    background-color: var(--cor-verde-escuro);
+    border-radius: 50%;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.incial_rosa_forte {
+    background-color: var(--cor-rosa-forte);
+    border-radius: 50%;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.incial_laranja {
+    background-color: var(--cor-laranja);
+    border-radius: 50%;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.permissao_opcoes {
+    width: 50%;
+    font-family: var(--fonte-secundaria);
+    padding: 5px;
+    border-color: var(--cinza-claro-secundario);
+}
+
+tr a {
+    padding: 15px;
+    color: rgb(117, 116, 116);
+}
+
